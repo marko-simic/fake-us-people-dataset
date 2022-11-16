@@ -22,10 +22,13 @@ The SQLite database contains the following columns:
 
 > The `street` address column does not represent an actual physical location rather, it is the result of the concatenation of randomly pulled plausible house number and randomly pulled plausible street name.
 
+> Columns `city`, `state` and `zip` are pulled together randomly from United States ZIP Codes database
+
 # Sources
 
 - **First Name** - [Popular Baby Names - US Social Security](https://www.ssa.gov/oact/babynames/limits.html)
 - **Last Name** - [United States Census Bureau](https://www.census.gov/topics/population/genealogy/data/2010_surnames.html)
 - **Job Title** - [Bureau of Labor Statistics of the USA](https://www.bls.gov)
-- **Street, City, State and Zip** - [OpenAddresses](https://openaddresses.io)
+- **Street** - [OpenAddresses](https://openaddresses.io)
+- **City, State and Zip** - [United States Postal Service](https://www.usps.com)
 - **Company and Phone** - [Faker NPM library](https://fakerjs.dev/api/company.html#name)
