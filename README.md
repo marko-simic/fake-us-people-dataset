@@ -26,7 +26,7 @@ The SQLite database contains the following columns:
 
 # Sources
 
-- **First Name** - [Popular Baby Names - US Social Security](https://www.ssa.gov/oact/babynames/limits.html)
+- **First Name and Gender** - [Popular Baby Names - US Social Security](https://www.ssa.gov/oact/babynames/limits.html)
 - **Last Name** - [United States Census Bureau](https://www.census.gov/topics/population/genealogy/data/2010_surnames.html)
 - **Job Title** - [Bureau of Labor Statistics of the USA](https://www.bls.gov)
 - **Street** - [OpenAddresses](https://openaddresses.io)
