@@ -8,13 +8,13 @@ The SQLite database contains the following columns:
   "id"          INTEGER,
   "first_name"  TEXT UNIQUE,
   "last_name"   TEXT UNIQUE,
-  "gender"	    TEXT,
+  "gender"      TEXT,
   "job_title"   TEXT,
   "street"      TEXT UNIQUE,
   "city"        TEXT,
   "state"       TEXT,
   "zip"         TEXT,
-  "company"	    TEXT UNIQUE,
+  "company"     TEXT UNIQUE,
   "phone"       TEXT UNIQUE,
 ```
 
