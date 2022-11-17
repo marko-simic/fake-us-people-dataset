@@ -5,17 +5,17 @@ This database was primarily created for testing purposes.
 The SQLite database contains the following columns:
 
 ```sql
-  "id"	INTEGER,
-  "first_name"	TEXT UNIQUE,
-  "last_name"	TEXT UNIQUE,
-  "gender"	TEXT,
-  "job_title"	TEXT,
-  "street"	TEXT UNIQUE,
-  "city"	TEXT,
-  "state"	TEXT,
-  "zip"	TEXT,
-  "company"	TEXT UNIQUE,
-  "phone"	TEXT UNIQUE,
+  "id"          INTEGER,
+  "first_name"  TEXT UNIQUE,
+  "last_name"   TEXT UNIQUE,
+  "gender"	    TEXT,
+  "job_title"   TEXT,
+  "street"      TEXT UNIQUE,
+  "city"        TEXT,
+  "state"       TEXT,
+  "zip"         TEXT,
+  "company"	    TEXT UNIQUE,
+  "phone"       TEXT UNIQUE,
 ```
 
 > Columns `first_name` and `last_name` are sorted by popularity
